@@ -1,0 +1,5 @@
+scenario_id,message,expected_keyword
+TC-CHAT-001,소프트웨어 QA에 대해 10글자 이내로 짧게 설명해줘.,품질
+TC-CHAT-002,파이썬에서 리스트와 튜플의 차이가 뭐야?,가변
+TC-CHAT-003,안녕? 넌 이름이 뭐니?,헬피
+TC-CHAT-004,1+1은 뭐야?,2
