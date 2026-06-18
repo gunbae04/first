@@ -1,0 +1,24 @@
+{
+  "valid_users": {
+    "main_coach": {
+      "id": "qa5-maincoach-sh01@elicer.com",
+      "role": "coach",
+      "description": "메인 코치 정상 계정 (비밀번호는 보안상 .env에서 로드)"
+    },
+    "student": {
+      "id": "qa5-student01@elicer.com",
+      "role": "student",
+      "description": "일반 학생 정상 계정"
+    }
+  },
+  "invalid_users": {
+    "wrong_format": {
+      "id": "invalid_email_format",
+      "expected_error": "Invalid email format."
+    },
+    "not_registered": {
+      "id": "unknown_ghost@elicer.com",
+      "expected_error": "Email or password does not match"
+    }
+  }
+}
